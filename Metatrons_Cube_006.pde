@@ -2,9 +2,10 @@
 // by Rupert Russell
 // December 17 2018
 // https://www.universallifetools.com/2015/09/archangels-dna-wave-x-wave-love/
+// Code on Github at: https://github.com/rupertrussell/Metatron-s-Cube-001
+// artwork on Redbubble at: https://www.redbubble.com/people/rupertrussell/works/35747373-metatron-s-cube-002
 
-
-int scale = 1200;
+int scale = 1200; 
 float[] x = new float[14];
 float[] y = new float[14];
 int count = 0;
@@ -114,7 +115,7 @@ void draw() {
   line(x[12], y[12], x[1], y[1]); // right
   line(x[12], y[12], x[3], y[3]); // left
   
-  save("Matatrons-cube_003.png");
+  save("Matatrons-cube_002.png");
   exit();
   
 }
